@@ -3,13 +3,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="app">
+      <header className="header">
         
       <Button text='Choose Algorithm'/>
+      <Button text='Start Node'/>
+      <Button text='End Node'/>
       <Button text='Start Pathfinding'/>
         
       </header>
+      
     </div>
   );
 }

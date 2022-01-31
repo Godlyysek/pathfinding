@@ -1,26 +1,23 @@
-.App {
+.app {
     text-align: center;
-}
-
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
-.App-header {
-    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     background-color: #282c34;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    top: 0px;
+    min-height: 10vh;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     font-size: calc(10px + 2vmin);
     color: white;
+    background-color: #1d2025;
     width: 100vw;
-}
-
-.App-link {
-    color: #61dafb;
 }
 
 .btn {
