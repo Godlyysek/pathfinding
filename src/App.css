@@ -19,17 +19,21 @@
     margin: 50px;
     margin-top: 0;
     width: 100%;
+    background-color: rgb(214, 46, 46);
     height: 4em;
 }
 
 .btn {
-    background-color: rgb(214, 46, 46);
+    background-color: rgb(199, 36, 36);
     color: white;
     font-weight: 200;
-    width: 25%;
-    font-size: 1.4em;
-    height: 100%;
     border: transparent;
+}
+
+.btn-top {
+    width: 33.33%;
+    height: 100%;
+    font-size: 1.4em;
 }
 
 .btn:hover {
@@ -42,7 +46,7 @@
 }
 
 .block {
-    border: 2px solid #282c34;
+    border: 1px solid white;
     color: rgb(132, 0, 255);
     width: 3vw;
     aspect-ratio: 1 / 1;
@@ -50,6 +54,7 @@
     display: inline-block;
     background-color: aqua;
     font-size: 1em;
+    vertical-align: text-bottom;
 }
 
 .block:hover {
@@ -58,4 +63,8 @@
 
 .block:active {
     background-color: blue;
+}
+
+#zero {
+    color: black;
 }
